@@ -19,3 +19,4 @@ describe 'songs', type: :feature do
     expect(page).to have_link('Daft Punk', href: artist_path(@artist))
   end
 end
+end
